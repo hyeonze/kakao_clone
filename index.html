@@ -10,6 +10,7 @@
 <link rel="apple-touch-icon-precomposed" href=".png" />
 <link rel="apple-touch-startup-image" href=".png" />
 <script src="https://kit.fontawesome.com/6c4c22fc0d.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/main.css" />
 </head>
 <body>
 <!-- header -->
@@ -18,7 +19,7 @@
     <div class="status_bar">
         <div class="left_item"><i class="fas fa-plane"></i><i class="fas fa-wifi"></i></div>
         <div class="center_item"><span>17</span>:<span>33</span></div>
-        <div class="right_item"><i class="far fa-moon"></i><i class="fab fa-bluetooth-b"></i><span><span>100</span>%</span><i>fas fa-battery-full</i></div>
+        <div class="right_item"><i class="far fa-moon"></i><i class="fab fa-bluetooth-b"></i><span><span>100</span>%</span><i class="fas fa-battery-full"></i></div>
     </div>
     <!-- //status_bar -->
     <!-- title_bar -->
@@ -34,12 +35,13 @@
 <!-- main -->
 <main>
     <!-- search_box -->
-    <div class="search_box">
-        <div class="search_inner">
+    <form class="search_box">
+        <fieldset class="search_inner">
+            <legend class="blind">검색창</legend>
             <i class="fas fa-search"></i>
             <input type="search" name="search" id="search" placeholder="Find friends, chats, Plus Friends"/>
-        </div>
-    </div>
+        </fieldset>
+    </form>
     <!-- //search_box -->
     <!-- main_section -->
     <section class="main_section">
