@@ -4,5 +4,5 @@
 .tab_bar > ul{display: flex;flex-direction: row;margin-top: 10px;}
 .tab_bar > ul > li{flex: 1;text-align: center;transform: transform 500ms linear 0s;}
 .tab_bar > ul > li > a{color: #c0c1c2;}
-.tab_bar > ul > li > a > i{display: block;}
+.tab_bar > ul > li > a > i{display: block;font-size: 22px;}
 .tab_bar > ul > li:hover{transform: scale(1.1);}
