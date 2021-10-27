@@ -10,6 +10,7 @@
 <link rel="apple-touch-icon-precomposed" href=".png" />
 <link rel="apple-touch-startup-image" href=".png" />
 <script src="https://kit.fontawesome.com/6c4c22fc0d.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/chatting.css">
 </head>
 <body>
 <!-- header -->
@@ -18,7 +19,7 @@
     <div class="status_bar">
         <div class="left_item"><i class="fas fa-plane"></i><i class="fas fa-wifi"></i></div>
         <div class="center_item"><span>17</span>:<span>33</span></div>
-        <div class="right_item"><i class="far fa-moon"></i><i class="fab fa-bluetooth-b"></i><span><span>100</span>%</span><i>fas fa-battery-full</i></div>
+        <div class="right_item"><i class="far fa-moon"></i><i class="fab fa-bluetooth-b"></i><span><span>100</span>%</span><i class="fas fa-battery-full"></i></div>
     </div>
     <!-- //status_bar -->
     <!-- title_bar -->
@@ -57,11 +58,15 @@
 <!-- footer -->
 <footer>
     <span class="plus_btn"><a href="#"><i class="fas fa-plus"></i></a></span>
-    <div class="text_box">
-        <input type="text" class="text_field">
-        <span class="emoticon_btn"><a href="#"><i class="far fa0smile"></i></a></span>
-        <span class="voice_btn"><a href="#"><i class="fas fa-microphone"></i></a></span>
-    </div>
+    <form action="/" method="post">
+        <fieldset class="text_box">
+            <legend class="blind">채팅 입력창</legend>
+            <label for="chatting" class="blind">채팅 입력</label>
+            <input type="text" id="chatting" class="text_field">
+            <span class="emoticon_btn"><a href="#"><i class="far fa0smile"></i></a></span>
+            <span class="voice_btn"><a href="#"><i class="fas fa-microphone"></i></a></span>
+    </fieldset>
+    </form>
 </footer>
 <!-- //footer -->
 </body>
